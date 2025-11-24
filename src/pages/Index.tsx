@@ -457,8 +457,8 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
-              <div className="inline-block bg-secondary/10 rounded-full px-4 py-2">
-                <span className="text-secondary text-sm font-semibold uppercase">Inscrições em tempo real</span>
+              <div className="inline-block bg-primary/10 rounded-full px-4 py-2">
+                <span className="text-primary text-sm font-semibold uppercase">Inscrições em tempo real</span>
               </div>
 
               <h2 className="text-4xl font-bold">Quem está garantindo vaga agora na Pós</h2>
