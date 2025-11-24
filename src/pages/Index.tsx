@@ -129,7 +129,7 @@ const Index = () => {
               <div className="flex flex-wrap gap-4">
                 <Button
                   size="lg"
-                  className="bg-[#fff719] text-[#0c213b] font-semibold px-8 hover:bg-[#ffeb3b] hover:scale-[1.02] hover:shadow-xl transition-all duration-500 ease-out"
+                  className="bg-accent text-accent-foreground font-semibold px-8 hover:bg-accent/90 hover:scale-[1.02] hover:shadow-xl transition-all duration-500 ease-out"
                   asChild
                 >
                   <a
@@ -207,7 +207,7 @@ const Index = () => {
 
                   <div className="py-4">
                     <p className="text-muted-foreground text-sm md:text-base mb-2">A partir de 12x de</p>
-                    <p className="mb-2 font-sans font-extrabold text-[#0b1f37] text-6xl md:text-7xl lg:text-8xl">
+                    <p className="mb-2 font-sans font-extrabold text-primary text-6xl md:text-7xl lg:text-8xl">
                       R$66
                     </p>
                     <p className="text-muted-foreground text-sm md:text-base">mensais*</p>
