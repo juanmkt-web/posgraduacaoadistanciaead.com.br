@@ -501,15 +501,15 @@ const Index = () => {
 
               <div className="space-y-3">
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <p>Agenda flexível para atendimento individual</p>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <p>Atendimento rápido e personalizado            </p>
                 </div>
                 <div className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-secondary shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <p>Condições especiais de lançamento para turmas 2026</p>
                 </div>
               </div>
