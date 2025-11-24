@@ -118,7 +118,7 @@ const Index = () => {
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Comece sua Pós-Graduação hoje, com matrícula grátis e 3 cursos de Pós totalmente gratuitos
+                Já pensou em ganhar mais? Com uma Pós isso pode se tornar realidade
               </h1>
 
               <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">
@@ -207,9 +207,7 @@ const Index = () => {
 
                   <div className="py-4">
                     <p className="text-muted-foreground text-sm md:text-base mb-2">A partir de 12x de</p>
-                    <p className="mb-2 font-sans font-extrabold text-primary text-6xl md:text-7xl lg:text-8xl">
-                      R$66
-                    </p>
+                    <p className="mb-2 font-sans font-extrabold text-primary text-6xl md:text-7xl lg:text-8xl">R$66</p>
                     <p className="text-muted-foreground text-sm md:text-base">mensais*</p>
                   </div>
 
