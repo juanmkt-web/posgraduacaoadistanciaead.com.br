@@ -336,9 +336,6 @@ const Index = () => {
                   text: "Liberdade e Flexibilidade",
                 },
                 {
-                  text: "Networking alumni",
-                },
-                {
                   text: "Aulas on demand",
                 },
                 {
@@ -366,9 +363,6 @@ const Index = () => {
                 },
                 {
                   text: "Liberdade e Flexibilidade",
-                },
-                {
-                  text: "Networking alumni",
                 },
                 {
                   text: "Aulas on demand",
