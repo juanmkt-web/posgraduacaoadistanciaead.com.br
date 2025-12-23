@@ -168,7 +168,7 @@ const Index = () => {
                     <TrendingUp className="h-6 w-6 md:h-8 md:w-8 text-accent" />
                   </div>
                   <div className="text-2xl md:text-3xl font-bold text-white">
-                    +<CountUp end={35} suffix="k" />
+                    +<CountUp end={10} suffix="k" />
                   </div>
                   <p className="text-white/80 text-xs md:text-sm mt-1">Profissionais impulsionados</p>
                 </div>
