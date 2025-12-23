@@ -293,13 +293,11 @@ const Index = () => {
               },
             ].map((item, index) => (
               <div key={index} className="text-center space-y-4 hover-lift">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full mb-4">
-                  <item.icon
-                    className="h-10 w-10 text-primary animate-float"
-                    style={{
-                      animationDelay: `${index * 0.2}s`,
-                    }}
-                  />
+                <div 
+                  className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full mb-4 animate-float-container"
+                  style={{ animationDelay: `${index * 0.2}s` }}
+                >
+                  <item.icon className="h-10 w-10 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold">{item.title}</h3>
                 <p className="text-muted-foreground">{item.desc}</p>

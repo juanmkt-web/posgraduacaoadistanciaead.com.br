@@ -138,7 +138,12 @@ All colors MUST be HSL.
   
   @keyframes float {
     0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+    50% { transform: translateY(-4px); }
+  }
+  
+  @keyframes float-container {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
   }
   
   @keyframes border-beam {
@@ -158,6 +163,10 @@ All colors MUST be HSL.
   
   .animate-float {
     animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-float-container {
+    animation: float-container 3s ease-in-out infinite;
   }
   
   .animate-pulse-soft {
