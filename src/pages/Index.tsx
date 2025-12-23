@@ -428,16 +428,18 @@ const Index = () => {
 
             <div className="md:col-span-2 space-y-4">
               <Card className="p-6 hover-scale">
-                <h3 className="font-bold text-lg mb-2">Pós 100% EAD</h3>
+                <h3 className="font-bold text-lg mb-2">PÓS 100% EAD</h3>
                 <p className="text-sm text-muted-foreground">
-                  Estude de onde estiver com total flexibilidade. Aulas online ao vivo e gravadas para você acompanhar no seu ritmo
+                  Estude de onde estiver com total flexibilidade. Aulas online ao vivo e gravadas para você acompanhar
+                  no seu ritmo
                 </p>
               </Card>
 
               <Card className="p-6 hover-scale">
-                <h3 className="font-bold text-lg mb-2">10 Cursos de IA</h3>
+                <h3 className="font-bold text-lg mb-2">10 CURSOS DE IA</h3>
                 <p className="text-sm text-muted-foreground">
-                  Receba 10 cursos de Inteligência Artificial voltados para aplicação prática na sua área de Pós-Graduação
+                  Receba 10 cursos de Inteligência Artificial voltados para aplicação prática na sua área de
+                  Pós-Graduação
                 </p>
               </Card>
             </div>
