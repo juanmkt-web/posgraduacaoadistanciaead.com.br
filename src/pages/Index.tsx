@@ -241,7 +241,7 @@ const Index = () => {
                 Incentivos exclusivos para a nova turma
               </h2>
               <p className="text-white/80 mb-1 font-normal text-sm md:text-base">
-                Aproveite benefícios como +3 cursos bônus de IA e até 70% OFF.*
+                Aproveite benefícios como +3 Pós-Graduações e até 70% OFF.*
               </p>
               <p className="text-accent font-bold text-base md:text-lg">VAGAS LIMITADAS</p>
             </div>
