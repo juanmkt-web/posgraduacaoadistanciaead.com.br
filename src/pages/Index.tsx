@@ -293,7 +293,7 @@ const Index = () => {
               },
             ].map((item, index) => (
               <div key={index} className="text-center space-y-4 hover-lift">
-                <div 
+                <div
                   className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full mb-4 animate-float-container"
                   style={{ animationDelay: `${index * 0.2}s` }}
                 >
@@ -419,7 +419,7 @@ const Index = () => {
 
                 <div>
                   <div className="text-4xl font-bold text-primary mb-2">
-                    <CountUp end={210} />
+                    <CountUp end={120} />
                   </div>
                   <p className="text-muted-foreground">Parceiras corporativas</p>
                 </div>
