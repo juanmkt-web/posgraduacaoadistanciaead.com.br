@@ -669,50 +669,201 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="text-white py-12 px-4 bg-[0C2039] bg-[#0d213a]">
-        <div className="container mx-auto">
-          <div className="flex flex-col items-center space-y-6">
-            {/* Logo */}
-            <img src={logoFasul} alt="Fasul Educacional" className="h-16" />
+      <footer className="footer-main rodapePadd">
+        {/* Main Footer Content */}
+        <div className="white-background">
+          <div className="footer-container white-background !p-0 sm:!p-5">
+            <div className="footer-row">
+              {/* First Column - Logo and Social */}
+              <div className="w-full lg:w-1/4 p-0 text-left">
+                <a href="https://www.fasuleducacional.edu.br/" title="Faculdade FASUL">
+                  <img loading="lazy" width="222" height="87" src="logorodape.png" className="max-w-full h-auto mb-4" alt="FASUL LOGO" />
+                </a>
+                <a href="https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MjE3NTc=" title="QR Code MEC" target="_blank" rel="noopener noreferrer">
+                  <img loading="lazy" width="211" height="104" src="qrcodemec.webp" className="mb-4" alt="QR Code MEC" />
+                </a>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/quem-somos">O GRUPO</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/polos-fasul-educacional">SEJA POLO FASUL</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/trabalhe-conosco">TRABALHE CONOSCO</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/assessoria-imprensa">ASSESSORIA DE IMPRENSA</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/termos-de-uso">TERMOS DE USO</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/ouvidoria">OUVIDORIA</a></li>
+                </ul>
+                <div className="text-left p-0 mt-4">
+                  <a href="https://www.facebook.com/fasuleducacionalead/" target="_blank" rel="noopener noreferrer" title="Facebook">
+                    <img loading="lazy" width="32" height="32" src="facebook.webp" alt="Facebook" className="max-w-full h-auto m-1 inline-block" />
+                  </a>
+                  <a href="https://www.instagram.com/fasulead/" target="_blank" rel="noopener noreferrer" title="Instagram">
+                    <img loading="lazy" width="29" height="30" src="instagram.webp" alt="Instagram" className="max-w-full h-auto m-1 inline-block" />
+                  </a>
+                  <a href="https://www.youtube.com/channel/UCXFGu7TVBJPX5LuHtWu2OHQ" target="_blank" rel="noopener noreferrer" title="Youtube">
+                    <img loading="lazy" width="33" height="27" src="youtube.webp" alt="Youtube" className="max-w-full h-auto m-1 inline-block" />
+                  </a>
+                  <a href="https://www.linkedin.com/company/fasul-educacional/" target="_blank" rel="noopener noreferrer" title="Linkedin">
+                    <img loading="lazy" width="29" height="29" src="linkedin.webp" alt="Linkedin" className="max-w-full h-auto m-1 inline-block" />
+                  </a>
+                </div>
+                <br />
+                <span className="porttxt">PORTARIA DE CREDENCIAMENTO EAD:</span>
+                <br />
+                <span className="txtrodape">A FACULDADE FASUL EDUCACIONAL EAD FOI CREDENCIADA DE ACORDO COM A PORTARIA Nº499 DE 08/07/2021, CONFORME PUBLICAÇÃO NO D.O.U. EM 09/07/2021.</span>
+              </div>
 
-            {/* Social Media */}
-            <div className="flex gap-4">
-              <a
-                href="https://www.facebook.com/fasuleducacionalead"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent transition-colors"
-              >
-                <Facebook className="h-6 w-6" />
-              </a>
-              <a
-                href="https://www.instagram.com/fasulead/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent transition-colors"
-              >
-                <Instagram className="h-6 w-6" />
-              </a>
-              <a
-                href="https://www.linkedin.com/school/54152401/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent transition-colors"
-              >
-                <Linkedin className="h-6 w-6" />
-              </a>
-              <a
-                href="https://www.youtube.com/@fasuleducacionalead"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent transition-colors"
-              >
-                <Youtube className="h-6 w-6" />
-              </a>
+              {/* Second Column - Institucional */}
+              <div className="w-full lg:w-1/4 p-0">
+                <h2 className="tituloRodape">Institucional</h2>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape text-red-600" href="https://www.fasuleducacional.edu.br/organizacao-administrativa">Organização Administrativa</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/corpo-docente">Corpo Docente</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/quem-somos">Quem Somos</a></li>
+                </ul>
+              </div>
+
+              {/* Third Column - Educação a Distância */}
+              <div className="w-full lg:w-1/4 p-0">
+                <h2 className="tituloRodape">Educação a Distância</h2>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cursos-graduacao-ead">Graduação EAD</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/posgraduacao/cursos">Pós-Graduação EAD</a></li>
+                </ul>
+                <h2 className="tituloRodape mt-6">Educação Presencial<br />Semipresencial</h2>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cursos-graduacao-presencial">Graduação</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cursos-pos-graduacao-presencial">Pós-Graduação</a></li>
+                </ul>
+                <h2 className="tituloRodape mt-6">Manuais</h2>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/manual-geral-do-aluno-fasul-2025.pdf" target="_blank">Manual do Aluno</a></li>
+                </ul>
+                <h2 className="tituloRodape mt-6">Acadêmico</h2>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/diploma">Registro de Diplomas</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/diploma-historico">Registro de Históricos</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/tcc-repositorio">Repositórios de TCC</a></li>
+                </ul>
+              </div>
+
+              {/* Fourth Column - Bolsas e Regulamentos */}
+              <div className="w-full lg:w-1/4 p-0">
+                <h2 className="tituloRodape">Bolsas e Financiamentos</h2>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/concursodebolsas">Programa de Bolsas</a></li>
+                </ul>
+                <h2 className="tituloRodape mt-6">Regulamentos</h2>
+                <ul className="p-0 text-left">
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-enade.pdf" target="_blank">Regulamento e Termo de Compromisso Enade</a></li>
+                </ul>
+                <h2 className="tituloRodape mt-6 pt-2">Reclame Aqui</h2>
+                <div id="reputation-ra" className="pb-4 flex gap-1 mt-2">
+                  <div id="ra-verified-seal"></div>
+                </div>
+                <div className="mt-5">
+                  <p className="text-footer-acreditamos m-0">Nós Acreditamos em Deus</p>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
 
-            {/* Copyright */}
-            <p className="text-sm text-white/60 pt-4">© 2025 Fasul Educacional. Todos os direitos reservados.</p>
+        {/* Contact Section */}
+        <section className="footer-contact" aria-labelledby="footer-contact-title">
+          <div className="footer-contact__container">
+            <div className="footer-contact__intro">
+              <span className="footer-contact__intro-title">Fale Conosco</span>
+              <span className="footer-contact__intro-subtitle" id="footer-contact-title">Qual canal gostaria de falar?</span>
+            </div>
+            <div className="footer-contact__cards">
+              {/* Call Card */}
+              <div className="contact-channel-card contact-channel-card--call">
+                <div className="contact-channel-card__label">
+                  <span className="contact-channel-card__label-icon">
+                    {/* CallIcon SVG */}
+                  </span>
+                  LIGAÇÃO
+                </div>
+                <div className="contact-channel-card__list">
+                  <div className="contact-channel-card__item contact-channel-card__item--call">
+                    <div className="contact-channel-card__item-content">
+                      <div className="contact-channel-card__item-title">1. FAÇA SUA MATRÍCULA AGORA</div>
+                      <div className="contact-channel-card__promo-banner">
+                        <div className="contact-channel-card__promo-content">
+                          <span className="contact-channel-card__promo-text contact-channel-card__promo-text--cyan">GANHE 3 PÓS-GRADUAÇÕES</span>
+                          <span className="contact-channel-card__promo-text contact-channel-card__promo-text--pink">+ 10 CURSOS DE IA</span>
+                        </div>
+                        <div className="contact-channel-card__promo-badge">VAGAS<br />LIMITADAS</div>
+                      </div>
+                      <p className="contact-channel-card__item-text">Tire suas dúvidas sobre Cursos de Graduação e Pós-graduação...</p>
+                      <div className="contact-channel-card__phone contact-channel-card__phone--inline contact-channel-card__phone-text">
+                        {/* PhoneIcon SVG */}
+                        (35) 2888-0007
+                      </div>
+                      <a className="contact-channel-card__phone contact-channel-card__phone--inline contact-channel-card__phone-link" href="https://wa.me/5531987885883">
+                        {/* WhatsAppIcon SVG */}
+                        (31) 98788-5883
+                      </a>
+                    </div>
+                  </div>
+                  <div className="contact-channel-card__item contact-channel-card__item--call">
+                    <div className="contact-channel-card__item-content">
+                      <div className="contact-channel-card__item-title">2. CONVERSE CONOSCO</div>
+                      <p className="contact-channel-card__item-text">Estamos prontos para tirar suas dúvidas...</p>
+                      <div className="contact-channel-card__phone contact-channel-card__phone--inline contact-channel-card__phone-text">
+                        {/* PhoneIcon SVG */}
+                        (35) 2038-0560
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* WhatsApp Card */}
+              <div className="contact-channel-card contact-channel-card--whatsapp">
+                <div className="contact-channel-card__label">
+                  <span className="contact-channel-card__label-icon">
+                    {/* WhatsAppIcon SVG */}
+                  </span>
+                  WHATSAPP
+                </div>
+                <div className="contact-channel-card__list">
+                  <div className="contact-channel-card__item">
+                    <div className="contact-channel-card__item-content">
+                      <div className="contact-channel-card__item-title">3. ATENDIMENTO SECRETARIA</div>
+                      <p className="contact-channel-card__item-text">Pendências de Documentos, Histórico, Declarações...</p>
+                    </div>
+                    <a className="contact-channel-card__cta" href="https://wa.me/5521991586516">
+                      {/* WhatsAppIcon SVG */}
+                    </a>
+                  </div>
+                  <div className="contact-channel-card__item">
+                    <div className="contact-channel-card__item-content">
+                      <div className="contact-channel-card__item-title">4. TUTORIA (APOIO AO ALUNO)</div>
+                      <p className="contact-channel-card__item-text">Dúvidas sobre o Conteúdo das Aulas...</p>
+                    </div>
+                    <a className="contact-channel-card__cta" href="https://wa.me/5511991401940">
+                      {/* WhatsAppIcon SVG */}
+                    </a>
+                  </div>
+                  <div className="contact-channel-card__item">
+                    <div className="contact-channel-card__item-content">
+                      <div className="contact-channel-card__item-title">5. FINANCEIRO E ACORDO FÁCIL</div>
+                      <p className="contact-channel-card__item-text">Pague sem dor de cabeça! 2ª via de Boletos...</p>
+                    </div>
+                    <a className="contact-channel-card__cta" href="https://wa.me/5531984088941">
+                      {/* WhatsAppIcon SVG */}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Copyright Bar */}
+        <div className="blue-background">
+          <div className="footer-container flex flex-row justify-between items-center gap-2 py-0.5 sm:py-2 !px-0 sm:!px-2">
+            <span className="txtDir text-[7px] sm:text-[15px]">COPYRIGHT © 1997-2025 - FASUL. TODOS OS DIREITOS RESERVADOS.</span>
+            <a className="txtPol text-[7px] sm:text-[15px] whitespace-nowrap" href="https://www.fasuleducacional.edu.br/termos-de-uso">Política de privacidade</a>
           </div>
         </div>
       </footer>
