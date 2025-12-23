@@ -533,8 +533,8 @@ const Index = () => {
                     <div className="flex items-start gap-3">
                       <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                       <div>
-                        <h4 className="font-bold text-lg">Acesso ao laboratório de IAs premium</h4>
-                        <p className="text-muted-foreground text-sm">Ferramentas profissionais à sua disposição</p>
+                      <h4 className="font-bold text-lg">10 Cursos de IA da sua área</h4>
+                        <p className="text-muted-foreground text-sm">Cursos práticos de Inteligência Artificial específicos para sua área de pós-graduação</p>
                       </div>
                     </div>
 
