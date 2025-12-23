@@ -677,10 +677,10 @@ const Index = () => {
               {/* First Column - Logo and Social */}
               <div className="w-full lg:w-1/4 p-0 text-left">
                 <a href="https://www.fasuleducacional.edu.br/" title="Faculdade FASUL">
-                  <img loading="lazy" width="222" height="87" src="logorodape.png" className="max-w-full h-auto mb-4" alt="FASUL LOGO" />
+                  <img loading="lazy" width="222" height="87" src="/images/logorodape.png" className="max-w-full h-auto mb-4" alt="FASUL LOGO" />
                 </a>
                 <a href="https://emec.mec.gov.br/emec/consulta-cadastro/detalhamento/d96957f455f6405d14c6542552b0f6eb/MjE3NTc=" title="QR Code MEC" target="_blank" rel="noopener noreferrer">
-                  <img loading="lazy" width="211" height="104" src="qrcodemec.webp" className="mb-4" alt="QR Code MEC" />
+                  <img loading="lazy" width="211" height="104" src="/images/qrcodemec.webp" className="mb-4" alt="QR Code MEC" />
                 </a>
                 <ul className="p-0 text-left">
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/quem-somos">O GRUPO</a></li>
@@ -692,16 +692,16 @@ const Index = () => {
                 </ul>
                 <div className="text-left p-0 mt-4">
                   <a href="https://www.facebook.com/fasuleducacionalead/" target="_blank" rel="noopener noreferrer" title="Facebook">
-                    <img loading="lazy" width="32" height="32" src="facebook.webp" alt="Facebook" className="max-w-full h-auto m-1 inline-block" />
+                    <img loading="lazy" width="32" height="32" src="/images/facebook.webp" alt="Facebook" className="max-w-full h-auto m-1 inline-block" />
                   </a>
                   <a href="https://www.instagram.com/fasulead/" target="_blank" rel="noopener noreferrer" title="Instagram">
-                    <img loading="lazy" width="29" height="30" src="instagram.webp" alt="Instagram" className="max-w-full h-auto m-1 inline-block" />
+                    <img loading="lazy" width="29" height="30" src="/images/instagram.webp" alt="Instagram" className="max-w-full h-auto m-1 inline-block" />
                   </a>
                   <a href="https://www.youtube.com/channel/UCXFGu7TVBJPX5LuHtWu2OHQ" target="_blank" rel="noopener noreferrer" title="Youtube">
-                    <img loading="lazy" width="33" height="27" src="youtube.webp" alt="Youtube" className="max-w-full h-auto m-1 inline-block" />
+                    <img loading="lazy" width="33" height="27" src="/images/youtube.webp" alt="Youtube" className="max-w-full h-auto m-1 inline-block" />
                   </a>
                   <a href="https://www.linkedin.com/company/fasul-educacional/" target="_blank" rel="noopener noreferrer" title="Linkedin">
-                    <img loading="lazy" width="29" height="29" src="linkedin.webp" alt="Linkedin" className="max-w-full h-auto m-1 inline-block" />
+                    <img loading="lazy" width="29" height="29" src="/images/linkedin.webp" alt="Linkedin" className="max-w-full h-auto m-1 inline-block" />
                   </a>
                 </div>
                 <br />
