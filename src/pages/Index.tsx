@@ -556,13 +556,13 @@ const Index = () => {
                     <p className="text-[#0d213a] text-xs md:text-sm font-semibold">Apenas R$ 2,20 por dia</p>
                   </div>
 
-                  {/* Financing Info */}
+                  {/* Certificate Info */}
                   <div className="mb-4 md:mb-6">
                     <h4 className="font-bold text-base md:text-lg mb-2">
-                      Bolsas e Financiamentos: PROUNI, FIES, Parcelamento FASUL
+                      Certificado reconhecido pelo MEC
                     </h4>
                     <p className="text-muted-foreground text-xs md:text-sm">
-                      Diversas opções de financiamento e bolsas disponíveis. Consulte nossas condições especiais.
+                      Diploma válido em todo território nacional com reconhecimento do Ministério da Educação.
                     </p>
                   </div>
 
