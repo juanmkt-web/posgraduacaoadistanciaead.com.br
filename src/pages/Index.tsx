@@ -122,7 +122,7 @@ const Index = () => {
               </h1>
 
               <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed">
-                Faça parte dos +35 mil profissionais que impulsionaram suas carreiras. 87% dos nossos alunos conquistam
+                Faça parte dos +10 mil profissionais que impulsionaram suas carreiras. 87% dos nossos alunos conquistam
                 promoção em até 12 meses.
               </p>
 
