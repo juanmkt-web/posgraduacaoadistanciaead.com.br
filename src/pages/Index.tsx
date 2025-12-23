@@ -440,11 +440,6 @@ const Index = () => {
                   Desafios com líderes para solucionar cases reais do mercado
                 </p>
               </Card>
-
-              <Card className="p-6 hover-scale">
-                <h3 className="font-bold text-lg mb-2">Comunidade Alumni</h3>
-                <p className="text-sm text-muted-foreground">Ambiente exclusivo para compartilhar vagas e mentorias</p>
-              </Card>
             </div>
           </div>
         </div>
