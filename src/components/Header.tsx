@@ -67,7 +67,7 @@ export const Header = () => {
         />
 
         {/* Mobile Menu */}
-        <div className={`fixed top-0 left-0 h-full w-[80%] max-w-[300px] bg-[#030E1B] z-50 md:hidden transform transition-transform duration-300 ease-out ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+        <div className={`fixed top-0 right-0 h-full w-[80%] max-w-[300px] z-50 md:hidden transform transition-transform duration-300 ease-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`} style={{ background: 'linear-gradient(180deg, #030E1B 0%, #0A2540 100%)' }}>
           <div className="flex items-center justify-between p-4 border-b border-white/20">
             <img src={logoFasul} alt="Fasul" className="h-10 w-auto" />
             <button onClick={() => setIsMobileMenuOpen(false)} className="text-white">
