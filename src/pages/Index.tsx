@@ -714,9 +714,25 @@ const Index = () => {
               <div className="w-full lg:w-1/4 p-0">
                 <h2 className="tituloRodape">Institucional</h2>
                 <ul className="p-0 text-left">
-                  <li className="lirodape"><a className="atxtrodape text-red-600" href="https://www.fasuleducacional.edu.br/organizacao-administrativa">Organização Administrativa</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/organizacao-administrativa">Organização Administrativa</a></li>
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/corpo-docente">Corpo Docente</a></li>
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/quem-somos">Quem Somos</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/modalidades-de-ensino">Modalidades de Ensino</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/processos-seletivos">Processos Seletivos</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/regimento-interno">Regimento Interno</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/formas-de-ingresso">Formas de Ingresso</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/projetos-e-pesquisas">Projetos e Pesquisas</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/extensao-e-responsabilidade-social">Extensão e Responsabilidade Social</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/comissao-propria-de-avaliacao">Comissão Própria de Avaliação</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/egressos">Egressos</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/formaturas">Formaturas</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/perguntas-frequentes">Perguntas Frequentes</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/central-de-empregos-e-carreiras">Central de Empregos e Carreiras</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cadastro-do-egresso">Cadastro do Egresso</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/bibliotecas">Bibliotecas</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/desenvolvimento-artistico-e-cultural">Desenvolvimento Artístico e Cultural</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/revista-cientifica-fasul">Revista Científica FASUL</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/plano-de-desenvolvimento-institucional">Plano de Desenvolvimento Institucional - (PDI)</a></li>
                 </ul>
               </div>
 
@@ -726,8 +742,11 @@ const Index = () => {
                 <ul className="p-0 text-left">
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cursos-graduacao-ead">Graduação EAD</a></li>
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/posgraduacao/cursos">Pós-Graduação EAD</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/extensao-universitaria-ead">Extensão Universitária EAD</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/mba-ead">MBA EAD</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cursos-profissionalizantes-ead">Cursos Profissionalizantes EAD</a></li>
                 </ul>
-                <h2 className="tituloRodape mt-6">Educação Presencial<br />Semipresencial</h2>
+                <h2 className="tituloRodape mt-6">Educação Presencial<br />SEMIPRESENCIAL</h2>
                 <ul className="p-0 text-left">
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cursos-graduacao-presencial">Graduação</a></li>
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/cursos-pos-graduacao-presencial">Pós-Graduação</a></li>
@@ -753,6 +772,11 @@ const Index = () => {
                 <h2 className="tituloRodape mt-6">Regulamentos</h2>
                 <ul className="p-0 text-left">
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-enade.pdf" target="_blank">Regulamento e Termo de Compromisso Enade</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-atividades-complementares.pdf" target="_blank">Regulamento de Atividades Complementares</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-atividades-extensao.pdf" target="_blank">Regulamento de Atividades de Extensão</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-pict.pdf" target="_blank">Regulamento do Programa de Iniciação Científica e Tecnológica - PICT</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamentos-campanhas-promocionais.pdf" target="_blank">Regulamentos de Campanhas Promocionais</a></li>
+                  <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-certificacao-intermediaria.pdf" target="_blank">Regulamento Certificação Intermediária</a></li>
                 </ul>
                 <h2 className="tituloRodape mt-6 pt-2">Reclame Aqui</h2>
                 <div id="reputation-ra" className="pb-4 flex gap-1 mt-2">
