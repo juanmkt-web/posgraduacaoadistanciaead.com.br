@@ -28,7 +28,8 @@ export const Header = () => {
     label: "FAQ",
     href: "#faq"
   }];
-  return <header className={`fixed top-0 w-full z-50 transition-all duration-300 gradient-header ${isScrolled ? "shadow-lg" : "backdrop-blur-sm"}`}>
+  return <>
+    <header className={`fixed top-0 w-full z-50 transition-all duration-300 gradient-header ${isScrolled ? "shadow-lg" : "backdrop-blur-sm"}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -59,31 +60,35 @@ export const Header = () => {
             {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
-
-        {/* Mobile Menu Overlay */}
-        <div 
-          className={`fixed inset-0 bg-black/50 z-40 md:hidden transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-          onClick={() => setIsMobileMenuOpen(false)}
-        />
-
-        {/* Mobile Menu */}
-        <div className={`fixed top-0 right-0 h-full w-[80%] max-w-[300px] z-50 md:hidden transform transition-transform duration-300 ease-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`} style={{ background: 'linear-gradient(180deg, #030E1B 0%, #0A2540 100%)' }}>
-          <div className="flex items-center justify-between p-4 border-b border-white/20">
-            <img src={logoFasul} alt="Fasul" className="h-10 w-auto" />
-            <button onClick={() => setIsMobileMenuOpen(false)} className="text-white">
-              <X className="h-6 w-6" />
-            </button>
-          </div>
-          <nav className="flex flex-col p-6 space-y-6">
-            {navItems.map(item => <a key={item.href} href={item.href} className="text-white/90 hover:text-white transition-colors text-lg" onClick={() => setIsMobileMenuOpen(false)}>
-                {item.label}
-              </a>)}
-            
-            <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline" className="w-full bg-transparent border-white text-white hover:bg-white hover:text-primary">Garantir minha bolsa</Button>
-            </a>
-          </nav>
-        </div>
       </div>
-    </header>;
+    </header>
+
+    {/* Mobile Menu Overlay - moved outside header */}
+    <div 
+      className={`fixed inset-0 bg-black/50 z-[60] md:hidden transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+      onClick={() => setIsMobileMenuOpen(false)}
+    />
+
+    {/* Mobile Menu - moved outside header with solid background */}
+    <div className={`fixed top-0 right-0 h-full w-[80%] max-w-[300px] z-[70] md:hidden transform transition-transform duration-300 ease-out bg-[#030E1B] ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #030E1B 0%, #0A2540 100%)' }} />
+      <div className="relative z-10">
+        <div className="flex items-center justify-between p-4 border-b border-white/20">
+          <img src={logoFasul} alt="Fasul" className="h-10 w-auto" />
+          <button onClick={() => setIsMobileMenuOpen(false)} className="text-white">
+            <X className="h-6 w-6" />
+          </button>
+        </div>
+        <nav className="flex flex-col p-6 space-y-6">
+          {navItems.map(item => <a key={item.href} href={item.href} className="text-white/90 hover:text-white transition-colors text-lg" onClick={() => setIsMobileMenuOpen(false)}>
+              {item.label}
+            </a>)}
+          
+          <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" className="w-full bg-transparent border-white text-white hover:bg-white hover:text-primary">Garantir minha bolsa</Button>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </>;
 };
