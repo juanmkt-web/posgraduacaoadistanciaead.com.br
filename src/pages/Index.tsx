@@ -618,7 +618,7 @@ const Index = () => {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="relative py-20 px-4" style={{ backgroundColor: '#030E1B' }}>
+      <section id="faq" className="relative pt-[100px] pb-20 px-4" style={{ backgroundColor: '#030E1B' }}>
         {/* Top Wave */}
         <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20">
           <svg
