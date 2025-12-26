@@ -38,7 +38,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { BorderBeam } from "@/components/ui/border-beam";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useToast } from "@/hooks/use-toast";
 import logoFasul from "@/assets/logo_fasul.png";
 const Index = () => {
@@ -55,6 +55,45 @@ const Index = () => {
   // Set countdown to 2 days from now
   const countdownDate = new Date();
   countdownDate.setDate(countdownDate.getDate() + 2);
+
+  // Load Reclame Aqui scripts
+  useEffect(() => {
+    // Script for reputation widget
+    const reputationScript = document.createElement('script');
+    reputationScript.src = 'https://s3.amazonaws.com/raichu-beta/selos/bundle.js';
+    reputationScript.defer = true;
+    reputationScript.id = 'ra-embed-reputation';
+    reputationScript.setAttribute('data-id', 'cDd6eDZOQ09hVFdfM0pjcDpmYXN1bG1nLWZhY3VsZGFkZS1zdWxtaW5laXJh');
+    reputationScript.setAttribute('data-target', 'reputation-ra');
+    reputationScript.setAttribute('data-model', '2');
+    
+    // Script for verified seal
+    const verifiedScript = document.createElement('script');
+    verifiedScript.src = 'https://s3.amazonaws.com/raichu-beta/ra-verified/bundle.js';
+    verifiedScript.defer = true;
+    verifiedScript.id = 'ra-embed-verified-seal';
+    verifiedScript.setAttribute('data-id', 'cDd6eDZOQ09hVFdfM0pjcDpmYXN1bG1nLWZhY3VsZGFkZS1zdWxtaW5laXJh');
+    verifiedScript.setAttribute('data-target', 'ra-verified-seal');
+    verifiedScript.setAttribute('data-model', '2');
+
+    const reputationContainer = document.getElementById('reputation-ra');
+    const verifiedContainer = document.getElementById('ra-verified-seal');
+    
+    if (reputationContainer) {
+      reputationContainer.appendChild(reputationScript);
+    }
+    if (verifiedContainer) {
+      verifiedContainer.appendChild(verifiedScript);
+    }
+
+    return () => {
+      // Cleanup scripts on unmount
+      const existingReputation = document.getElementById('ra-embed-reputation');
+      const existingVerified = document.getElementById('ra-embed-verified-seal');
+      if (existingReputation) existingReputation.remove();
+      if (existingVerified) existingVerified.remove();
+    };
+  }, []);
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.consent) {
@@ -779,21 +818,8 @@ const Index = () => {
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-certificacao-intermediaria.pdf" target="_blank">Regulamento Certificação Intermediária</a></li>
                 </ul>
                 <h2 className="tituloRodape mt-6 pt-2">Reclame Aqui</h2>
-                <div id="reputation-ra" className="pb-4 mt-2">
-                  <a 
-                    href="https://www.reclameaqui.com.br/empresa/fasul-educacional/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-block"
-                  >
-                    <img 
-                      src="https://www.reclameaqui.com.br/imagens/selo/selo_ra_1000_180_branco.png" 
-                      alt="Selo Reclame Aqui - FASUL Educacional" 
-                      className="max-w-[180px] h-auto"
-                      loading="lazy"
-                    />
-                  </a>
-                </div>
+                <div id="reputation-ra" className="pb-4 flex gap-1 mt-2"></div>
+                <div id="ra-verified-seal"></div>
                 <div className="mt-5">
                   <p className="text-footer-acreditamos m-0">Nós Acreditamos em Deus</p>
                 </div>
