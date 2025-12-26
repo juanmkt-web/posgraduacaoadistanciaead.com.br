@@ -779,8 +779,20 @@ const Index = () => {
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-certificacao-intermediaria.pdf" target="_blank">Regulamento Certificação Intermediária</a></li>
                 </ul>
                 <h2 className="tituloRodape mt-6 pt-2">Reclame Aqui</h2>
-                <div id="reputation-ra" className="pb-4 flex gap-1 mt-2">
-                  <div id="ra-verified-seal"></div>
+                <div id="reputation-ra" className="pb-4 mt-2">
+                  <a 
+                    href="https://www.reclameaqui.com.br/empresa/fasul-educacional/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-block"
+                  >
+                    <img 
+                      src="https://www.reclameaqui.com.br/imagens/selo/selo_ra_1000_180_branco.png" 
+                      alt="Selo Reclame Aqui - FASUL Educacional" 
+                      className="max-w-[180px] h-auto"
+                      loading="lazy"
+                    />
+                  </a>
                 </div>
                 <div className="mt-5">
                   <p className="text-footer-acreditamos m-0">Nós Acreditamos em Deus</p>
