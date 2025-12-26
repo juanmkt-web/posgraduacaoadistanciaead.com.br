@@ -60,16 +60,30 @@ export const Header = () => {
           </button>
         </div>
 
+        {/* Mobile Menu Overlay */}
+        <div 
+          className={`fixed inset-0 bg-black/50 z-40 md:hidden transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+          onClick={() => setIsMobileMenuOpen(false)}
+        />
+
         {/* Mobile Menu */}
-        {isMobileMenuOpen && <div className="md:hidden py-4 border-t border-white/20">
-            <nav className="flex flex-col space-y-4">
-              {navItems.map(item => <a key={item.href} href={item.href} className="text-white/90 hover:text-white transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
-                  {item.label}
-                </a>)}
-              
-              <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-primary">Garantir minha bolsa</Button>
-            </nav>
-          </div>}
+        <div className={`fixed top-0 left-0 h-full w-[80%] max-w-[300px] bg-[#030E1B] z-50 md:hidden transform transition-transform duration-300 ease-out ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+          <div className="flex items-center justify-between p-4 border-b border-white/20">
+            <img src={logoFasul} alt="Fasul" className="h-10 w-auto" />
+            <button onClick={() => setIsMobileMenuOpen(false)} className="text-white">
+              <X className="h-6 w-6" />
+            </button>
+          </div>
+          <nav className="flex flex-col p-6 space-y-6">
+            {navItems.map(item => <a key={item.href} href={item.href} className="text-white/90 hover:text-white transition-colors text-lg" onClick={() => setIsMobileMenuOpen(false)}>
+                {item.label}
+              </a>)}
+            
+            <a href="https://www.fasuleducacional.edu.br/posgraduacao/cursos" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="w-full bg-transparent border-white text-white hover:bg-white hover:text-primary">Garantir minha bolsa</Button>
+            </a>
+          </nav>
+        </div>
       </div>
     </header>;
 };
