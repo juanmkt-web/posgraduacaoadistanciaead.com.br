@@ -818,8 +818,10 @@ const Index = () => {
                   <li className="lirodape"><a className="atxtrodape" href="https://www.fasuleducacional.edu.br/docs/regulamento-certificacao-intermediaria.pdf" target="_blank">Regulamento Certificação Intermediária</a></li>
                 </ul>
                 <h2 className="tituloRodape mt-6 pt-2">Reclame Aqui</h2>
-                <div id="reputation-ra" className="pb-4 flex gap-1 mt-2"></div>
-                <div id="ra-verified-seal"></div>
+                <div className="flex flex-row gap-2 items-center mt-2 pb-4">
+                  <div id="reputation-ra"></div>
+                  <div id="ra-verified-seal"></div>
+                </div>
                 <div className="mt-5">
                   <p className="text-footer-acreditamos m-0">Nós Acreditamos em Deus</p>
                 </div>
