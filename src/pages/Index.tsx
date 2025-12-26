@@ -618,18 +618,18 @@ const Index = () => {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 px-4 bg-background">
+      <section id="faq" className="py-20 px-4" style={{ backgroundColor: '#030E1B' }}>
         <div className="container mx-auto">
           <div className="grid md:grid-cols-5 gap-12 items-start">
             {/* Left Column - Title */}
             <div className="md:col-span-2 space-y-4">
               <div className="inline-block">
-                <span className="text-primary text-sm font-semibold uppercase tracking-wide">Perguntas frequentes</span>
+                <span className="text-secondary text-sm font-semibold uppercase tracking-wide">Perguntas frequentes</span>
               </div>
-              <h2 className="text-4xl font-bold leading-tight">
+              <h2 className="text-4xl font-bold leading-tight text-white">
                 Tudo o que você precisa saber para decidir com confiança.
               </h2>
-              <p className="text-muted-foreground">
+              <p className="text-gray-300">
                 Caso sua pergunta não esteja aqui, nossa equipe educacional está pronta para ajudar.
               </p>
             </div>
@@ -639,12 +639,12 @@ const Index = () => {
               <Accordion type="single" collapsible className="space-y-3">
                 <AccordionItem
                   value="item-1"
-                  className="bg-card border border-border rounded-lg px-6 hover:border-primary/30 transition-colors"
+                  className="bg-white/5 border border-white/10 rounded-lg px-6 hover:border-secondary/50 transition-colors"
                 >
-                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal">
+                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal text-white">
                     Os cursos são reconhecidos pelo MEC?
                   </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground pb-5">
+                  <AccordionContent className="text-gray-300 pb-5">
                     Sim, todos os nossos programas de pós-graduação são credenciados pelo MEC e seguem as diretrizes do
                     Conselho Nacional de Educação. Você receberá um diploma reconhecido em todo território nacional.
                   </AccordionContent>
@@ -652,12 +652,12 @@ const Index = () => {
 
                 <AccordionItem
                   value="item-2"
-                  className="bg-card border border-border rounded-lg px-6 hover:border-primary/30 transition-colors"
+                  className="bg-white/5 border border-white/10 rounded-lg px-6 hover:border-secondary/50 transition-colors"
                 >
-                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal">
+                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal text-white">
                     Como funcionam as aulas?
                   </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground pb-5">
+                  <AccordionContent className="text-gray-300 pb-5">
                     As aulas são 100% online, com conteúdos gravados disponíveis na plataforma 24/7. Você escolhe quando
                     e onde estudar!
                   </AccordionContent>
@@ -665,12 +665,12 @@ const Index = () => {
 
                 <AccordionItem
                   value="item-3"
-                  className="bg-card border border-border rounded-lg px-6 hover:border-primary/30 transition-colors"
+                  className="bg-white/5 border border-white/10 rounded-lg px-6 hover:border-secondary/50 transition-colors"
                 >
-                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal">
+                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal text-white">
                     Posso concluir em 3 Meses?
                   </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground pb-5">
+                  <AccordionContent className="text-gray-300 pb-5">
                     Sim! você consegue concluir sua Pós-Graduação em apenas 3 meses, a especialização que você precisa
                     no menor tempo possivel!
                   </AccordionContent>
@@ -678,12 +678,12 @@ const Index = () => {
 
                 <AccordionItem
                   value="item-4"
-                  className="bg-card border border-border rounded-lg px-6 hover:border-primary/30 transition-colors"
+                  className="bg-white/5 border border-white/10 rounded-lg px-6 hover:border-secondary/50 transition-colors"
                 >
-                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal">
+                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal text-white">
                     Posso conciliar com a rotina de trabalho?
                   </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground pb-5">
+                  <AccordionContent className="text-gray-300 pb-5">
                     Absolutamente. Nossa metodologia foi desenhada para profissionais em atividade. Com aulas gravadas,
                     você consegue equilibrar trabalho, estudo e vida pessoal.
                   </AccordionContent>
@@ -691,12 +691,12 @@ const Index = () => {
 
                 <AccordionItem
                   value="item-5"
-                  className="bg-card border border-border rounded-lg px-6 hover:border-primary/30 transition-colors"
+                  className="bg-white/5 border border-white/10 rounded-lg px-6 hover:border-secondary/50 transition-colors"
                 >
-                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal">
+                  <AccordionTrigger className="hover:no-underline py-5 text-left font-normal text-white">
                     Quais são as formas de pagamento?
                   </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground pb-5">
+                  <AccordionContent className="text-gray-300 pb-5">
                     Oferecemos parcelamento em até 18x no cartão de crédito, boleto bancário ou PIX. Além disso, temos
                     condições especiais de bolsa para matrículas antecipadas e programas de financiamento estudantil.
                   </AccordionContent>
