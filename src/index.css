@@ -637,6 +637,13 @@ All colors MUST be HSL.
   }
 }
 
+/* Tablet breakpoint - 2 columns for footer links */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-row > div.lg\:w-1\/4 {
+    width: 50% !important;
+  }
+}
+
 @media (max-width: 767px) {
   .tituloRodape { font-size: 14px; }
   .atxtrodape { font-size: 13px; }
