@@ -246,7 +246,7 @@ const Index = () => {
 
                   <div className="py-4">
                     <p className="text-muted-foreground text-sm md:text-base mb-2">A partir de 12x de</p>
-                    <p className="mb-2 font-sans font-extrabold text-primary text-6xl md:text-7xl lg:text-8xl">R$66</p>
+                    <p className="mb-2 font-sans font-extrabold text-primary text-6xl md:text-7xl lg:text-8xl">R$86</p>
                     <p className="text-muted-foreground text-sm md:text-base">mensais*</p>
                   </div>
 
