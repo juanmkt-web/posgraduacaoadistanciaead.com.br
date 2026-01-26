@@ -363,7 +363,7 @@ const Index = () => {
                   text: "Conclua em 3 meses",
                 },
                 {
-                  text: "+10 cursos de IA inclusos",
+                  text: "+10 Cursos de IA inclusos",
                 },
                 {
                   text: "Faça de onde quiser",
@@ -374,11 +374,6 @@ const Index = () => {
                 {
                   text: "Liberdade e Flexibilidade",
                 },
-                {
-                  text: "Aulas on demand",
-                },
-                {
-                  text: "Bolsa Fasul",
                 },
               ].map((vantagem, index) => (
                 <div className="card-vantagem" key={`original-${index}`}>
@@ -402,12 +397,6 @@ const Index = () => {
                 },
                 {
                   text: "Liberdade e Flexibilidade",
-                },
-                {
-                  text: "Aulas on demand",
-                },
-                {
-                  text: "Bolsa Fasul",
                 },
               ].map((vantagem, index) => (
                 <div className="card-vantagem" key={`clone-${index}`} aria-hidden="true">
