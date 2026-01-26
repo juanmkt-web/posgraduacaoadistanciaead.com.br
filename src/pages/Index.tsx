@@ -374,7 +374,6 @@ const Index = () => {
                 {
                   text: "Liberdade e Flexibilidade",
                 },
-                },
               ].map((vantagem, index) => (
                 <div className="card-vantagem" key={`original-${index}`}>
                   <CheckCircle2 className="w-5 h-5 text-accent mb-2 flex-shrink-0" />
