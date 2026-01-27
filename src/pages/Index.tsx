@@ -576,7 +576,7 @@ const Index = () => {
                     <p className="text-[#0d213a] font-extrabold mb-1 md:mb-2 text-4xl md:text-5xl lg:text-6xl">
                       R$ 86/mês
                     </p>
-                    <p className="text-[#0d213a] text-xs md:text-sm font-semibold">Apenas R$ 2,20 por dia</p>
+                    <p className="text-[#0d213a] text-xs md:text-sm font-semibold">Apenas R$ 2,87 por dia</p>
                   </div>
 
                   {/* Certificate Info */}
