@@ -1372,7 +1372,7 @@ const Index = () => {
         <div className="blue-background">
           <div className="footer-container flex flex-row justify-between items-center gap-2 py-0.5 sm:py-2 !px-0 sm:!px-2">
             <span className="txtDir text-[7px] sm:text-[15px]">
-              COPYRIGHT © 1997-2025 - FASUL. TODOS OS DIREITOS RESERVADOS.
+              COPYRIGHT © 1997-2026 - FASUL. TODOS OS DIREITOS RESERVADOS.
             </span>
             <a
               className="txtPol text-[7px] sm:text-[15px] whitespace-nowrap"
